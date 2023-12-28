@@ -1,7 +1,7 @@
 // Write your code here.
-const bannerProfile = props => {
-  const {bannerDetails} = props
-  const {id, headerText, description, className} = bannerDetails
+const BannerProfile = props => {
+  const {BannerDetails} = props
+  const {id, headerText, description, className} = BannerDetails
   return (
     <li className="BannerCardItem">
       {id}
