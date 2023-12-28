@@ -29,6 +29,7 @@ const App = () => (
       {bannerCardsList.map(eachItem => (
         <BannerProfile BannerDetails={eachItem} key={eachItem.id} />
       ))}
+      <button>Show More</button>
     </ul>
   </div>
 )

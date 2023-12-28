@@ -12,3 +12,4 @@ const BannerProfile = props => {
     </li>
   )
 }
+export default BannerProfile
